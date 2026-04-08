@@ -1,5 +1,4 @@
 class NhanVien:
-    # Bỏ tham số Luong khỏi hàm init vì nó là kết quả tự tính toán
     def __init__(self, ho_ten="", nam_sinh=0, gioi_tinh="", dia_chi="", luong_co_ban=0.0, he_so_luong=0.0, luong_toi_da=0.0):
         self.__ho_ten = ho_ten
         self.__nam_sinh = nam_sinh
