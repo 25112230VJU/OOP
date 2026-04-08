@@ -1,5 +1,4 @@
 #Bài tập 1: Kế thừa với 1 class cha và 3 class con
-#Chưa bổ sung get/set
 class HangHoa:
     def __init__(self, ma_hang="", ten_hang="", nha_sx="", gia=0.0):
         self.__ma_hang = ma_hang
